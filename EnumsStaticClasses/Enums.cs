@@ -128,7 +128,13 @@ namespace EnitityFrameWorkReWrite.EnumsStaticClasses {
             SHRINE
         }
 
-
+        public enum Rareity {
+            OTHER = 0,
+            COMMON,
+            UNCOMMON,
+            RARE,
+            MYTHIC
+        }
 
     }
 }
