@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EnitityFrameWorkReWrite.EnumsStaticClasses;
+using System.Numerics;
 
 namespace EnitityFrameWorkReWrite {
     public class MagicCard {
@@ -13,14 +14,15 @@ namespace EnitityFrameWorkReWrite {
         private Enums.CardType cardType;
         private Enums.CardColor cardColor;
         private Enums.Rareity rareity;
+        private BigInteger set;
 
         public int CardID { get; set; }
 
-        protected string CardName { get; set; }
+        public string CardName { get; set; }
 
-        protected string ManaCost { get; set; }
+        public string ManaCost { get; set; }
 
-        protected int ConvertedManaCost {
+        public int ConvertedManaCost {
             get {
                 return this.convertedManaCost;
             }
@@ -30,11 +32,13 @@ namespace EnitityFrameWorkReWrite {
             }
         }
 
-        protected Enums.CardColor CardColor { get; set; }
+        public Enums.CardColor CardColor { get; set; }
 
-        protected Enums.CardType CardType { get; set; }
+        public Enums.CardType CardType { get; set; }
 
-        protected Enums.Rareity Rareity { get; set; }
+        public Enums.Rareity Rareity { get; set; }
+
+        public BigInteger Set { get; set; }
 
         public MagicCard() {
 
