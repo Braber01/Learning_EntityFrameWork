@@ -16,6 +16,8 @@ namespace EnitityFrameWorkReWrite {
         public byte Toughness { get; set; }
         public BigInteger CreatureTypes { get; set; }
 
+        public ICollection<BigInteger> Sets { get; set; }
+
         public CreatureCard() : base() {
 
         }
