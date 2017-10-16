@@ -108,5 +108,6 @@ namespace EnitityFrameWorkReWrite.EnumsStaticClasses {
         public static BigInteger XLN = 1 << 94;
         public static BigInteger RIX = 1 << 95;
         public static BigInteger DOM = 1 << 96;
+#endregion
     }
 }
