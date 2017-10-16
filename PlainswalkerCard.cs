@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace EnitityFrameWorkReWrite {
-    public class PlainswalkerCard {
+    public class PlainswalkerCard : MagicCard {
 
         private byte loyatly;
 
