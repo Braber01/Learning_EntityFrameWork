@@ -11,11 +11,12 @@ namespace EnitityFrameWorkReWrite {
         private byte power;
         private byte toughness;
         private BigInteger creatureTypes;
+        private BigInteger keywords;
 
         public byte Power { get; set; }
         public byte Toughness { get; set; }
         public BigInteger CreatureTypes { get; set; }
-
+        
         public ICollection<BigInteger> Sets { get; set; }
 
         public CreatureCard() : base() {

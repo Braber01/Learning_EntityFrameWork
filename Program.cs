@@ -42,6 +42,18 @@ namespace EnitityFrameWorkReWrite {
                     Rareity = Enums.Rareity.MYTHIC
                 };
 
+                CreatureCard Agadeem_Occultist = new CreatureCard {
+                    CardName = "Agadeem Occultist",
+                    CardColor = Enums.CardColor.BLACK,
+                    ManaCost = "2B",
+                    ConvertedManaCost = 3,
+                    Set = SetEnum.WWK,
+                    Power = 0,
+                    Toughness = 2,
+                    Rareity = Enums.Rareity.RARE,
+                    CreatureTypes = CreatureSubtypes.HUMAN | CreatureSubtypes.SHAMAN | CreatureSubtypes.ALLY
+                };
+
 
             }
 

@@ -15,6 +15,7 @@ namespace EnitityFrameWorkReWrite {
         private Enums.CardColor cardColor;
         private Enums.Rareity rareity;
         private BigInteger set;
+        private BigInteger keyworkds;
 
         public int CardID { get; set; }
 
@@ -39,6 +40,8 @@ namespace EnitityFrameWorkReWrite {
         public Enums.Rareity Rareity { get; set; }
 
         public BigInteger Set { get; set; }
+
+        public BigInteger Keywords { get; set; }
 
         public MagicCard() {
 
