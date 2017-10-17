@@ -74,6 +74,11 @@ namespace EnitityFrameWorkReWrite.EnumsStaticClasses {
             /// Green | Blue
             /// </summary>
             SIMIC = GREEN | BLUE,
+
+            /// <summary>
+            /// Green | WHITE
+            /// </summary>
+            SELESNYA = GREEN | WHITE,
             //three color shards
             JUND = RED | GREEN | BLACK,
             BANT = WHITE | GREEN | BLUE,
