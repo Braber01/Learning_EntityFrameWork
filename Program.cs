@@ -91,6 +91,17 @@ namespace EnitityFrameWorkReWrite {
                     Rareity = Enums.Rareity.MYTHIC
                 };
 
+                CreatureCard Arashin_Sovergin = new CreatureCard {
+                    CardName = "Arashin Sovergin",
+                    CardColor = Enums.CardColor.GREEN | Enums.CardColor.WHITE,
+                    ManaCost = "5GW",
+                    ConvertedManaCost = 7,
+                    Power = 6,
+                    Toughness = 6,
+                    Set = SetEnum.DTK,
+                    Rareity = Enums.Rareity.RARE
+                };
+
             }
 
         }
