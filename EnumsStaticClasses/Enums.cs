@@ -38,14 +38,41 @@ namespace EnitityFrameWorkReWrite.EnumsStaticClasses {
             BLACK = 1 << 2,
             RED = 1 << 3,
             GREEN = 1 << 4,
+            /// <summary>
+            /// White | Blue
+            /// </summary>
             AZORIUS = WHITE | BLUE,
+            /// <summary>
+            /// Blue | Black
+            /// </summary>
             DIMIR = BLUE | BLACK,
+            /// <summary>
+            /// Black | Red
+            /// </summary>
             RAKDOS = BLACK | RED,
+            /// <summary>
+            /// RED | Green
+            /// </summary>
             GRUUL = RED | GREEN,
+            /// <summary>
+            /// White | Black
+            /// </summary>
             ORZHOV = WHITE | BLACK,
+            /// <summary>
+            /// Blue | Red
+            /// </summary>
             IZZET = BLUE | RED,
+            /// <summary>
+            /// Black | Green
+            /// </summary>
             GOLGARI = BLACK | GREEN,
+            /// <summary>
+            /// Red | White
+            /// </summary>
             BOROS = RED | WHITE,
+            /// <summary>
+            /// Green | Blue
+            /// </summary>
             SIMIC = GREEN | BLUE,
             //three color shards
             JUND = RED | GREEN | BLACK,
