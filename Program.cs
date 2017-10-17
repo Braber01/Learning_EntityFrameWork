@@ -54,6 +54,42 @@ namespace EnitityFrameWorkReWrite {
                     CreatureTypes = CreatureSubtypes.HUMAN | CreatureSubtypes.SHAMAN | CreatureSubtypes.ALLY
                 };
 
+                CreatureCard Agent_of_the_Fates = new CreatureCard {
+                    CardName = "Agent of the Fates",
+                    CardColor = Enums.CardColor.BLACK,
+                    CardType = Enums.CardType.CREATURE,
+                    ManaCost = "1BB",
+                    ConvertedManaCost = 3,
+                    CreatureTypes = CreatureSubtypes.HUMAN | CreatureSubtypes.ASSASSIN,
+                    Power = 3,
+                    Toughness = 2,
+                    Keywords = MagicKeywords.DEATHTOUCH,
+                    Set = SetEnum.THS,
+                    Rareity = Enums.Rareity.RARE
+                };
+
+                MagicCard Archive_Trap = new MagicCard {
+                    CardName = "Archive Trap",
+                    CardColor = Enums.CardColor.BLUE,
+                    CardType = Enums.CardType.INSTANT,
+                    ManaCost = "3UU",
+                    ConvertedManaCost = 5,
+                    Set = SetEnum.ZEN,
+                    Rareity = Enums.Rareity.RARE
+                };
+
+                CreatureCard Ashcloud_Phoenix = new CreatureCard {
+                    CardName = "Ashcloud Phoenix",
+                    CardColor = Enums.CardColor.RED,
+                    ManaCost = "2RR",
+                    ConvertedManaCost = 4,
+                    CardType = Enums.CardType.CREATURE,
+                    Keywords = MagicKeywords.FLYING | MagicKeywords.MORPH,
+                    Set = SetEnum.KTK,
+                    Power = 4,
+                    Toughness = 1,
+                    Rareity = Enums.Rareity.MYTHIC
+                };
 
             }
 
