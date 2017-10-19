@@ -102,6 +102,17 @@ namespace EnitityFrameWorkReWrite {
                     Rareity = Enums.Rareity.RARE
                 };
 
+                CreatureCard Abyssal_Hunter = new CreatureCard {
+                    CardName = "Abyssal Hunter",
+                    CardColor = Enums.CardColor.BLACK,
+                    ManaCost = "3B",
+                    ConvertedManaCost = 4,
+                    Power = 1,
+                    Toughness = 1,
+                    Set = SetEnum.IV_ED,
+                    Rareity = Enums.Rareity.RARE
+                };
+
             }
 
         }
